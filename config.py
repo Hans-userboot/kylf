@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "25948358"))
 API_HASH = os.environ.get("API_HASH", "b89b0b5b357d21d857bf3980476d5351")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001909780275"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001974693513"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Thisiskylee")
@@ -36,11 +36,11 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://kjzkonyt:B6d8IcWQEhCI5COPxHSAO4zoX_HunG-k@trumpet.db.elephantsql.com/kjzkonyt")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://tednwjes:X7i2T6oiNmQQ-r9XN_mXOwDJIKraCNkj@tiny.db.elephantsql.com/tednwjes")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001683074743"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001734370023"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001889270006"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001836199214"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
